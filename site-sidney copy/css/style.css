@@ -51,6 +51,14 @@ nav.menu {
   margin-top: 10px;
 }
 
+nav.menu {
+  background-color: #01401c;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
 nav.menu ul li {
   list-style: none;
   display: inline-block;
@@ -70,24 +78,28 @@ nav.menu ul li a:hover {
 
 main.principal div.container-titulo {
   width: 100%;
-  background-color: #46953a;
+  background-color: #01401c;
   padding: 15px;
+  text-align: center;
+  justify-content: center
 }
 main.principal div.container-titulo h1 {
-  color: #fff;
+  color: #dd0000;
   text-align: center;
   font-size: 48px;
   text-transform: uppercase;
+  color: #46953a;
 }
 
 div.modulo {
   width: 100%;
   padding: 50px 0;
   justify-content: center;
+  color: #46953a;
 }
 
 div.sobre {
-  background-color: #a1a1a1;
+  background-color: #01401c;
   justify-content: center;
 }
 
@@ -100,10 +112,10 @@ div.container-btn {
 }
 
 .btn-saiba-mais {
-  background-color: #bf7e04;
+  background-color: #46953a;
   padding: 15px;
   border: none;
-  border-radius: 5px;
+  border-radius: 100px;
   transition: transform 0.3s;
 }
 
@@ -115,7 +127,7 @@ div.container-btn {
 .btn-saiba-mais a {
   text-align: center;
   text-decoration: none;
-  color: #01401C;
+  color: #01401c;
   font-size: 20px;
 }
 
@@ -127,14 +139,14 @@ table.tabela {
 }
 
 table.tabela thead {
-  background-color: #333;
-  color: #fff;
+  background-color: #01401c;
+  color: #46953a;
   justify-content: center;
 }
 
 table.tabela td,
 table.tabela th {
-  border: 1px solid #333;
+  border: 1px solid #01401c;
   padding: 7px;
   justify-content: center;
 }
@@ -148,8 +160,8 @@ div.lista-locais ul {
 div.lista-locais ul li {
   list-style: none;
   display: inline-block;
-  color: #fff;
-  background-color: #ff8000;
+  color: #46953a;
+  background-color: #01401c;
   padding: 7px 12px;
   margin: 0 3px;
   border-radius: 5px;
@@ -159,21 +171,21 @@ div.lista-locais ul li {
 footer.rodape {
   width: 100%;
   padding: 50px 0;
-  background-color: #01401C;
+  background-color: #01401c;
   background-image: url(../assets/img/padrao-fundo-rodape.png);
-  border-top: 6px solid #f2c53d;
+  border-top: 6px solid #46953a;
   text-align: center;
   clear: both;
 }
 
 footer.rodape div.logo {
   margin-bottom: 30px;
-  justify-content:center
+  justify-content: center;
 }
 
 footer.rodape div.creditos {
   color: #fff;
-  justify-content:center ;
+  justify-content: center;
 }
 
 div.mapa {
@@ -189,14 +201,12 @@ div.mapa iframe {
 
 div.notaveis {
   float: left;
-  background-color: 
-
-#04BF7B;
+  background-color: #01401c;
   margin-top: 20px;
 }
 
 div.notaveis ol {
-  font-size: 22px;
+  font-size: 30px;
   float: left;
   position: relative;
   left: 50%;
@@ -228,9 +238,9 @@ textarea#sugestao {
 input.form-botao {
   width: 100%;
   padding: 15px 30px;
-  background-color: #01401C;
+  background-color: #01401c;
   border: none;
-  color: #F2C53D;
+  color: #46953a;
   font-size: 17px;
   cursor: pointer;
   transition: transform 0.3s;
